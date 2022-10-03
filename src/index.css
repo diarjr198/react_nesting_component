@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: ghostwhite;
+  overflow-x: hidden;
+}
+
+.mobile__layout {
+  width: 100%;
+  max-width: 50rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  background-color: cornsilk;
+  margin: 0 auto;
+}
